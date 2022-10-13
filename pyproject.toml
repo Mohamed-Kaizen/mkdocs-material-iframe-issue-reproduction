@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mkdocs-material-iframe-issue-reproduction"
+version = "0.1.0"
+description = ""
+authors = ["Mohamed-Kaizen <m.n.kaizen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mkdocs_material_iframe_issue_reproduction"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "^8.5.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
